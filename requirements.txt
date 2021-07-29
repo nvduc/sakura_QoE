@@ -1,0 +1,29 @@
+Enviroment:
+- OS: Ubuntu 18.04 LTS 64bit
+- Python3.6
+
+Python libraries
+- python3-pip
+- opencv-python
+- pandas
+- numpy
+- scikit-learn
+- math
+- scipy==1.1.0
+- pickle
+- PyWavelets
+- ffmpeg_debug_qp_parser (pip3 install --user ffmpeg_debug_qp_parser)
+
+Install SITI extractor
+
+$ sudo apt-get install libopencv-dev
+$ sudo apt-get install scons
+$ sudo apt-get install build-essential
+$ git clone https://github.com/Telecommunication-Telemedia-Assessment/SITI.git
+$ cd SITI/src/SITI/
+$ scons
+$ sudo cp siti /usr/local/bin/
+
+
+
+
